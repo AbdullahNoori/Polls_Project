@@ -24,5 +24,5 @@ from django.urls import include, path
 urlpatterns = [
         path('', include('polls.urls')),
         path('', include('polls.urls')),
-        path('', include('registration.urls')),
+       
 ]
